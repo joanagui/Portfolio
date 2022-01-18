@@ -86,6 +86,12 @@ p {
   padding-right: 50px;
   padding-bottom: 30px;
 }
+.aboutpd h3 {
+  font-size: 24px;
+  font-family: var(--default-font);
+  
+}
+
 @media (max-width: 960px) {
   .project-description {
     padding: 0px;
