@@ -89,7 +89,29 @@ p {
 .aboutpd h3 {
   font-size: 24px;
   font-family: var(--default-font);
-  
+}
+.logo {
+  max-height: 45px;
+}
+nav {
+  padding: 20px 0px 20px 0px;
+}
+nav ul {
+  padding-top: 10px;
+}
+nav li {
+  display: inline;
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  padding: 5px;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
 }
 
 @media (max-width: 960px) {
