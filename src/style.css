@@ -113,7 +113,68 @@ nav a:hover,
 nav li.active a {
   color: var(--branding-color);
 }
+footer {
+  text-align: center;
+  padding: 50px;
+}
+.footerlink {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding-bottom: 10px;
+  font-size: 24px;
+}
+.fab {
+  margin: 20px;
+  padding: 12px;
+  color: var(--branding-color);
+  background-color: #f9f7fe;
+  border-radius: 50%;
+  font-size: 20px;
+}
+.fab:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
+.footerFirst {
+  margin-top: 100px;
+  padding: 60px 20px;
+  background-color: #f9f7fe;
+  border-radius: 20px;
+}
+.footerFirst h1 {
+  font-size: 48px;
+}
+.footerFirst h2 {
+  font-size: 18px;
+  font-family: var(--default-font);
+}
+.footerFirstLink {
+  background: var(--branding-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  color: white;
+  text-decoration: none;
+}
+.footerFirstLink:hover {
+  color: black;
+}
+.buttonInq {
+  text-align: right;
+  margin-top: 30px;
+}
 
+@media (min-width:960px) {
+.buttonInq {
+    padding-right: 70px;
+}
+.footerText{
+    padding-left: 50px;
+}
+}
 @media (max-width: 960px) {
   .project-description {
     padding: 0px;
@@ -137,4 +198,17 @@ nav li.active a {
   .about h1 {
     font-size: 44px;
   }
+  .footerFirst h1 {
+    font-size: 23px;
+  }
+  .footerFirstLink {
+    font-size: 18px;
+  }
+  .footerFirst {
+    text-align: center;
+  }
+  .buttonInq {
+    text-align: center;
+  }
 }
+@media ()
