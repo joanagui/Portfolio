@@ -22,14 +22,18 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="src/style.css" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Joana is a front-end developer based in Portugal"
+    />
+    <title>Portfolio - Front-end developer</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
         <img
           src="images/logo.png"
-          alt=""
+          alt="Joana logo"
           class="logo d-none d-md-block d-lg-block d-xl-block"
         />
         <img
@@ -38,10 +42,10 @@
           class="logo d-block d-md-none"
         />
         <ul>
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="about.html">About me</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="work.html">Work</a></li>
+          <li class="active"><a href="index.html" title="Homepage">Home</a></li>
+          <li><a href="about.html" title="About page">About me</a></li>
+          <li><a href="contact.html" title="Contact page">Contact</a></li>
+          <li><a href="work.html" title="Work page">Work</a></li>
         </ul>
       </nav>
     </div>
@@ -49,7 +53,11 @@
       <p>Hello, I am</p>
       <h1>Joana Fernandes</h1>
       <h2 class="mb-5">Front-end developer based in Portugal</h2>
-      <div><a href="about.html" class="btn btn-branding">About me</a></div>
+      <div>
+        <a href="about.html" class="btn btn-branding" title="About me"
+          >About me</a
+        >
+      </div>
     </div>
     <p class="text-center m-5">Featured Projects</p>
     <div class="container">
@@ -66,7 +74,12 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline">View project</a>
+            <a
+              href="work.html"
+              class="btn btn-branding-outline"
+              title="work page yogurt"
+              >View project</a
+            >
           </div>
         </div>
       </div>
@@ -80,7 +93,12 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline">View project</a>
+            <a
+              href="work.html"
+              class="btn btn-branding-outline"
+              title="work page weather"
+              >View project</a
+            >
           </div>
         </div>
         <div class="col d-none d-md-block">
@@ -100,37 +118,44 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline">View project</a>
+            <a
+              href="work.html"
+              class="btn btn-branding-outline"
+              title="work page dictionary"
+              >View project</a
+            >
           </div>
         </div>
       </div>
-      <div class="container footerFirst">
-        <div class="row">
-          <div class="col-sm-6 footerText">
-            <h1>Work Inquiry</h1>
-            <h2 class="d-none d-md-block d-lg-block">
-              Let’s work together and i’ll help you by all my best
-            </h2>
-          </div>
-          <div class="col-sm-6 buttonInq">
-            <a href="" class="footerFirstLink">Let's talk</a>
-          </div>
-        </div>
-      </div>
-      <footer>
-        <a href="mailto:joanag.f@outlook.com" class="footerlink"
-          >joanag.f@outlook.com</a
-        >
-        <a href="https://www.Instagram.com/joanagui" target="_blank"
-          ><i class="fab fa-instagram"></i
-        ></a>
-        <a href="https://www.github.com/joanagui" target="_blank"
-          ><i class="fab fa-github"></i
-        ></a>
-        <a href="https://www.facebook.com/joanagui" target="_blank">
-          <i class="fab fa-facebook"></i
-        ></a>
-      </footer>
     </div>
+    <div class="container footerFirst">
+      <div class="row">
+        <div class="col-sm-6 footerText">
+          <h1>Work Inquiry</h1>
+          <h2 class="d-none d-md-block d-lg-block">
+            Let’s work together and i’ll help you by all my best
+          </h2>
+        </div>
+        <div class="col-sm-6 buttonInq">
+          <a href="contact.html" class="footerFirstLink" title="contact joana"
+            >Let's talk</a
+          >
+        </div>
+      </div>
+    </div>
+    <footer>
+      <a href="mailto:joanag.f@outlook.com" class="footerlink"
+        >joanag.f@outlook.com</a
+      >
+      <a href="https://www.Instagram.com/joanagui" target="_blank"
+        ><i class="fab fa-instagram"></i
+      ></a>
+      <a href="https://www.github.com/joanagui" target="_blank"
+        ><i class="fab fa-github"></i
+      ></a>
+      <a href="https://www.facebook.com/joanagui" target="_blank">
+        <i class="fab fa-facebook"></i
+      ></a>
+    </footer>
   </body>
 </html>

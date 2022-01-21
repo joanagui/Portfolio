@@ -22,9 +22,35 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="src/style.css" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Joana is a front-end developer based in Portugal"
+    />
+    <title>Portfolio - Front-end developer</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <img
+          src="images/logo.png"
+          alt="Joana logo"
+          class="logo d-none d-md-block d-lg-block d-xl-block"
+        />
+        <img
+          src="images/82059962_3408478479167996_2860312519644282880_n.jpg"
+          alt=""
+          class="logo d-block d-md-none"
+        />
+        <ul>
+          <li><a href="index.html" title="Homepage">Home</a></li>
+          <li class="active">
+            <a href="about.html" title="About page">About me</a>
+          </li>
+          <li><a href="contact.html" title="Contact page">Contact</a></li>
+          <li><a href="work.html" title="Work page">Work</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="about container">
       <div class="row">
         <div class="col-lg-6">
@@ -45,5 +71,34 @@
         </div>
       </div>
     </div>
+    <div class="container footerFirst">
+      <div class="row">
+        <div class="col-sm-6 footerText">
+          <h1>Work Inquiry</h1>
+          <h2 class="d-none d-md-block d-lg-block">
+            Let’s work together and i’ll help you by all my best
+          </h2>
+        </div>
+        <div class="col-sm-6 buttonInq">
+          <a href="contact.html" class="footerFirstLink" title="contact joana"
+            >Let's talk</a
+          >
+        </div>
+      </div>
+    </div>
+    <footer>
+      <a href="mailto:joanag.f@outlook.com" class="footerlink"
+        >joanag.f@outlook.com</a
+      >
+      <a href="https://www.Instagram.com/joanagui" target="_blank"
+        ><i class="fab fa-instagram"></i
+      ></a>
+      <a href="https://www.github.com/joanagui" target="_blank"
+        ><i class="fab fa-github"></i
+      ></a>
+      <a href="https://www.facebook.com/joanagui" target="_blank">
+        <i class="fab fa-facebook"></i
+      ></a>
+    </footer>
   </body>
 </html>
