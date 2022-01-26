@@ -176,7 +176,7 @@ footer {
     padding-left: 50px;
 }
 }
-@media (max-width: 960px) {
+@media (max-width: 1000px) {
   .project-description {
     padding: 0px;
     text-align: center;
